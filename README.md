@@ -26,7 +26,9 @@ package gives you access to the best of both worlds.
 
 To access the CAS binary protocol (recommended), you need the following:
 
-* **64-bit** Python 2.7.x or 3.4+ on Linux (see shared library notes below)
+* **64-bit** Python 2.7.x or 3.4+ on Linux or Windows
+
+For Linux, see additional shared library notes below.
 
 The binary protocol requires pre-compiled components found in the
 `pip` installer only.  These pieces are not available as source code and
@@ -42,7 +44,7 @@ binary protocol, the pure Python interface is more portable.
 If you do not have `pip` installed, you can use `easy_install pip` to add
 it to your current Python installation.
 
-## Linux Library Dependencies
+## Additional Linux Library Dependencies
 
 Some Linux distributions may not install all of the needed shared libraries
 by default.  Most notably, the shared library `libnuma.so.1` is required to
